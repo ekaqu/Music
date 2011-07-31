@@ -94,20 +94,41 @@ html, body, .screen {
 	float: left;
 	padding: 0;
 	margin: 0;
+	width: 100%;
 }
 
 .play-controls {
 	float: left;
-	width: 5%;
+	width: 10%;
+}
+
+.prev, .play, .next, .vol {
+	float: left;
+	padding: 0;
+	margin: 10px;
 }
 
 .progress-bar {
 	float: left;
 	width: 80%;
+	display: inline;
+}
+
+.progress, .time {
+	float: left;
+	padding: 0;
+	margin: 10px;
 }
 
 .playback-controls {
 	float: left;
-	width: 5%;
+	width: 10%;
+	display: inline;
+}
+
+.shuffle, .repeat {
+	float: left;
+	margin: 10px;
+	padding: 0;
 }
 
