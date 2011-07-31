@@ -1,0 +1,23 @@
+/* Colors: http://kuler.adobe.com/#themeID/1445347 */
+html, body, .screen {
+  width: 100%;
+  height: 100%;
+  padding:0;
+  margin:0;
+}
+.header {
+  width: 100%;
+  border: 1px solid black;
+  background-color: #41382A;
+}
+.header h1 {
+  padding:0 15px;
+  margin:0;
+  color: #D8CFBD;
+  font-family: 'Swanky and Moo Moo', cursive;
+}
+.sidebar {
+  float: left;
+  width: 250px;
+  border: 1px solid black;
+}
