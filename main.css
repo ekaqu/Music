@@ -1,21 +1,19 @@
 /* Colors: http://kuler.adobe.com/#themeID/1445347 */
-A:link {
-	text-decoration: none;
-}
-
-html, body, .screen, .header .title, .sidebar h2, .sidebar ul, .sidebar-playlist-title, .sidebar-playlist-add, .playlist ul, .player {
+html, body, div, p, ol, ul, li, h1, h2 {
   padding:0;
   margin:0;
 }
-
 html, body, .screen {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
+a:link {
+	text-decoration: none;
+}
 .header {
   width: 100%;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   background-color: #41382A;
   
 }
@@ -28,7 +26,6 @@ html, body, .screen {
 }
 
 .workspace {
-	float: left;
 	width: 100%;
 	height: 82%; /* Will need to change this.... */
 }
@@ -38,7 +35,6 @@ html, body, .screen {
   width: 130px;
   height: 100%;
   /*border: 1px solid black;*/
-  margin: 0px;
   background-color: #27261F;
   
 }
@@ -81,33 +77,47 @@ html, body, .screen {
 }
 
 .footer {
-	float: left;
-	width: 100%;
 	background-color: #41382A;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
 
-.playlist ul {
-	list-style-type: none;
-	white-space: nowrap;
+.footer .playlist {
+  border: 1px solid black;
+  overflow: hidden;
+  width: 150%; /* This needs to be set from JS for each element */
+  background-color: #27261F;
+  padding: 05px;
 }
-
-.playlist li {
-	display: inline;
+.footer .playlist .track {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0 02px;
+  padding: 10px 05px;
+  border-radius: 5px;
+  background-color: #D8CFBD;
+  width: 90px;
+  height: 125px;
 }
-
-.player {
+.footer .playlist .track .track-img {
+  border: 1px solid black;
+  width: 88px;
+  height: 88px;
+  background-color: #E3D0AB;
+}
+.footer .player {
 	float: left;
 	width: 100%;
 }
 
-.play-controls {
+.footer .play-controls {
 	float: left;
 	width: 10%;
 }
 
 .prev, .play, .next, .vol {
 	float: left;
-	padding: 0;
 	margin: 10px;
 }
 
@@ -119,7 +129,6 @@ html, body, .screen {
 
 .progress, .time {
 	float: left;
-	padding: 0;
 	margin: 10px;
 }
 
@@ -132,6 +141,5 @@ html, body, .screen {
 .shuffle, .repeat {
 	float: left;
 	margin: 10px;
-	padding: 0;
 }
 
