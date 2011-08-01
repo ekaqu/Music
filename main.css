@@ -70,9 +70,7 @@ html, body, .screen {
 }
 
 .info-box {
-	float: left;
 	background-color: #D8CFBD;
-	width: 90%;
 	height: 100%;
 	
 }
