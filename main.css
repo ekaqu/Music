@@ -16,10 +16,12 @@ html, body, .screen {
   
 }
 .header h1 {
-  padding:0 15px;
-  margin:0;
+  padding:0;
   color: #D8CFBD;
   font-family: 'Swanky and Moo Moo', cursive;
+}
+.header h1, .sidebar-general , .sidebar-quick-actions, .sidebar-playlist {
+  margin:0 15px;
 }
 
 .workspace {
@@ -40,7 +42,6 @@ html, body, .screen {
 
 .sidebar h2 {
 	font-family: 'Annie Use Your Telescope', cursive;
-	margin-left: 10px;
 	padding: 0; 
 }
 
@@ -56,6 +57,18 @@ html, body, .screen {
 	padding: 0;
 	font-family: 'Annie Use Your Telescope', cursive;
 	font-size: 20px;
+}
+
+
+.sidebar-playlist-title, .sidebar-playlist-add {
+  padding: 0;
+  margin: 0;
+	margin-right: 10px;
+  display: inline;
+}
+
+.sidebar-playlist-add a {
+  font-size: 36px;
 }
 
 .info-box {
