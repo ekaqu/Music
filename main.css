@@ -21,7 +21,7 @@ html, body, .screen {
   font-family: 'Swanky and Moo Moo', cursive;
 }
 .header h1, .sidebar-general , .sidebar-quick-actions, .sidebar-playlist {
-  margin:0 15px;
+  margin-left:15px;
 }
 
 .workspace {
@@ -53,8 +53,6 @@ html, body, .screen {
 
 .sidebar a {
 	color: #E3D0AB;
-	margin-left: 5;
-	padding: 0;
 	font-family: 'Annie Use Your Telescope', cursive;
 	font-size: 20px;
 }
